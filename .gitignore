@@ -1,0 +1,13 @@
+# Project dependencies
+node_modules/
+
+# environment variables file
+.env
+
+# Weird Files
+yarn-error.log
+.DS_Store
+
+# Build directory
+.cache/
+public

@@ -1,7 +1,33 @@
-@background: #fafafa;
+@import '_base';
+
+:root {
+  --background: #fafafa;
+  --foreground: #0a0a0a;
+}
+
 body {
-  --color: tomato;
-  padding: 10vmin;
-  color: var(--color);
-  background: @background;
+  color: var(--foreground);
+  background: var(--background);
+  padding: 5vmin;
+  max-width: 136.6rem;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 5.6rem;
+  margin-bottom: 2.4rem;
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  nav > a {
+    color: inherit;
+
+    &:hover {
+      color: rebeccapurple;
+    }
+  }
 }

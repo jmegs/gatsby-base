@@ -2,9 +2,9 @@ import React from 'react'
 
 const IndexPage = () => {
   return (
-    <div>
+    <React.Fragment>
       <h1>hello world!</h1>
-    </div>
+    </React.Fragment>
   )
 }
 
